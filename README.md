@@ -56,14 +56,6 @@ project-root/
 
 ---
 
-## ⚙️ Initialize TypeScript
-
-After installing dependencies, run:
-
-```bash
-npx tsc --init
-```
-
 Then update `tsconfig.json` with recommended options:
 
 ```json
@@ -91,6 +83,14 @@ Then update `tsconfig.json` with recommended options:
 
 ```bash
 yarn add -D typescript tsx tsup vitest
+```
+
+## ⚙️ Initialize TypeScript
+
+After installing dependencies, run:
+
+```bash
+npx tsc --init
 ```
 
 ### Production
